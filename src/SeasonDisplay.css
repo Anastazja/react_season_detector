@@ -1,0 +1,56 @@
+.ui.dimmer .loader {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: auto;
+}
+
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.season-display.winter {
+    background-color: aliceblue;
+}
+
+.season-display.autumn {
+    background-color: orange;
+}
+
+.season-display.summer {
+    background-color: #fff88d;
+}
+
+.season-display.spring {
+    background-color: #56ffc5;
+}
+
+.season-display.winter i {
+    color: blue;
+}
+
+.season-display.summer i {
+    color: red;
+}
+.season-display.autumn i {
+    color: red;
+}
+.season-display.spring i {
+    color: green;
+}
